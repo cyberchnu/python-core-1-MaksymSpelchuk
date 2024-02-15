@@ -1,4 +1,3 @@
-param=int(input("Enter a number: "))
 def fizz_buzz(param):
   #Type your code here
   if param % 3 == 0:
@@ -9,7 +8,7 @@ def fizz_buzz(param):
       return "FizzBuzz"
   if param % 3 != 0 and param % 5 !=0:
       return "param"
-print(fizz_buzz(param))
+
 
 
 
