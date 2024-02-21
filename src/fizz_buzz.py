@@ -6,7 +6,7 @@ def fizz_buzz(param):
       return "Buzz"
   if param % 3 == 0 and param % 5 == 0:
       return "FizzBuzz"
-  if param % 3 != 0 and param % 5 !=0:
+  if param % 3 != 0 and param % 5 != 0:
       return str(param)
 
 
